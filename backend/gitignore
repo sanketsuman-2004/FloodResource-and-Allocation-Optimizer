@@ -1,0 +1,103 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# Mypy / type checkers
+.mypy_cache/
+.dmypy.json
+
+# ── Environment Variables ─────────────────────────────────────────────────────
+.env
+.env.local
+.env.production
+.env.development
+*.env
+
+# ── ML Models (too large for GitHub — store in Google Drive / HuggingFace) ───
+backend/models/*.h5
+backend/models/*.keras
+backend/models/*.pkl
+backend/models/*.joblib
+backend/models/*.pt
+backend/models/*.pth
+backend/models/*.bin
+
+# Keep the models folder itself
+!backend/models/.gitkeep
+
+# ── Jupyter Notebooks (optional: remove if you want to keep .ipynb) ───────────
+# *.ipynb
+.ipynb_checkpoints/
+
+# ── Node / React Frontend ─────────────────────────────────────────────────────
+node_modules/
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+
+# ── Database ──────────────────────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
+backend/logs/
+
+# ── OS Files ──────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ── VS Code ───────────────────────────────────────────────────────────────────
+.vscode/
+!.vscode/extensions.json
+
+# ── PyCharm / JetBrains ───────────────────────────────────────────────────────
+.idea/
+*.iml
+
+# ── Temporary / Cache ─────────────────────────────────────────────────────────
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.cache/
